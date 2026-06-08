@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimeFlow 支持</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7fbfd;
+      --card: #ffffff;
+      --text: #142033;
+      --muted: #657587;
+      --accent: #0b9583;
+      --border: #d7e3ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1118;
+        --card: #17212c;
+        --text: #f4f8fc;
+        --muted: #9bacbc;
+        --accent: #55dbc6;
+        --border: #2b3a49;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.68;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 44px 20px 72px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 32px;
+      line-height: 1.18;
+    }
+    h2 {
+      margin-top: 26px;
+      font-size: 20px;
+    }
+    p, li {
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .panel {
+      margin-top: 22px;
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--card);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="index.html">返回 TimeFlow 支持</a>
+    <h1>TimeFlow 支持</h1>
+    <p>更新日期：2026-06-08</p>
+
+    <section class="panel">
+      <p>如果你在使用 TimeFlow 时遇到问题，请联系：<a href="mailto:timeflowsupport@163.com">timeflowsupport@163.com</a>。</p>
+
+      <h2>常见问题</h2>
+      <h3>数据保存在哪里？</h3>
+      <p>TimeFlow 当前不提供账号或云同步。活动、时间段、事件详情、NFC 贴纸绑定和统计数据默认保存在你的 iPhone 本机。</p>
+
+      <h3>为什么需要麦克风和语音识别权限？</h3>
+      <p>麦克风用于录入你说出的活动名称，语音识别用于把语音转换成文字。你也可以不授予这些权限，继续手动输入活动名称。</p>
+
+      <h3>为什么需要 NFC 权限？</h3>
+      <p>NFC 用于录入和读取 TimeFlow NFC 贴纸。录入后，你可以通过扫描贴纸快速开始或结束对应活动的计时。</p>
+
+      <h3>为什么锁屏或 Dynamic Island 会显示计时？</h3>
+      <p>TimeFlow 使用 iOS Live Activity 展示当前主计时活动和本次计时时长。它不使用远程推送。</p>
+
+      <h3>删除时间段后会怎样？</h3>
+      <p>删除时间段后，这段记录会从今日时间线、统计日历和活动累计中扣除。</p>
+    </section>
+  </main>
+</body>
+</html>
